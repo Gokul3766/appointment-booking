@@ -1,0 +1,188 @@
+
+.navbar{
+  background:beige;
+  padding: 15px;
+}
+.navbar-toggler
+{
+  color:darkgreen;
+}
+.navbar-brand
+  {
+    color:darkgreen;
+    font-size:30px;
+    font-weight: 500;
+  }
+  #navbar a{
+    color:darkgreen;
+    border: 2px transparent;
+    padding: 15px;
+    font-weight: 500;
+    text-align: center;
+  }
+  #navbar a:hover
+{
+    color:blue;
+
+}
+  .d-block
+  {
+    width: 100%;
+    height:85vh;
+  }
+  #slider
+  {
+    margin-top: 20px;
+  }
+  #about
+  {
+    margin-top: 50px;
+    color:darkolivegreen;
+    font-weight: 500; 
+  }
+  #services
+  {
+    margin-top: 50px; 
+    color:#556b2f;
+    font-weight: 500px;
+  }
+  #whyus
+  {
+    margin-top: 50px;
+    color:darkolivegreen; 
+    font-weight: 500;
+  }
+  #faq
+  {
+    color:darkolivegreen;
+    font-weight: 500;
+  }
+  h1
+  {
+    color:darkgreen;
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    color:darkolivegreen;
+    font-weight: 40px;
+  }
+
+  
+  .accordion-button
+  {
+    font-weight: 500;
+    font-size: 20px;
+    background-color: white;
+    color: darkgreen;
+  }
+  .accordion-body
+  {
+    color:darkolivegreen;
+    font-weight: 500;
+  }
+  #locations
+  {
+    padding: 10px;
+    color:darkolivegreen;
+    font-weight: 500;
+  }
+  #contact
+  {
+    background-color: beige;
+    color: darkolivegreen;
+    font-weight: 500;
+  }
+  form
+  {
+    padding:20px;
+    margin-bottom: 100px;
+  }
+  input
+  {
+    width:100%;
+    padding: 10px;
+    color:darkolivegreen;
+    border: transparent;
+    outline: none;
+    border-bottom: 2px solid darkgreen;
+    background: transparent;
+    text-align: center;
+}
+input[type="submit"]{
+  width:150px;
+  padding:10px;
+  border: none;
+  outline: none;
+  border-radius:5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color:darkgreen;
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 20px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+input[type="submit"]:active {
+  scale: 0.92;
+}
+
+input[type="submit"]:hover {
+  background: rgb(2,29,78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
+}
+button {
+  background: darkgreen;
+  color: white;
+  padding: 15px;
+  padding-left: 0.9em;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  text-align: center;
+  justify-content: center;
+}
+
+button span {
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+button svg {
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+button:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+button:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+button:hover span {
+  transform: translateX(5em);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+
+ 
